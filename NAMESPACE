@@ -1,0 +1,23 @@
+
+
+exportPattern("^[[:alpha:]]+")
+import(stats)
+import(stringr)
+import(MASS)
+import(MCMCpack)
+import(msm)
+import(statmod)
+import(psychometric)
+import(MplusAutomation)
+import(sna)
+import(doParallel)
+import(rstudioapi)
+
+
+importFrom("grDevices", "dev.cur", "rainbow", "savePlot")
+importFrom("graphics", "lines", "plot")
+importFrom("stats", "pnorm", "rgamma", "rnorm", "sd")
+importFrom("utils", "read.table")
+importFrom("utils", "write.table")
+importFrom("stringr", "str_detect")
+
