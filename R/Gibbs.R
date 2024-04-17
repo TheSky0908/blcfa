@@ -97,7 +97,7 @@ b_lambda<-0.0001
 
 NLY1<-sum(IDY==-1)				#number of lasso lambda.
 a_lamsq<-1
-b_lamsq<-.01    
+b_lamsq<-0.0001    
 stau<-0
 LY_eps<-0 #threhods for LY sign change
 
