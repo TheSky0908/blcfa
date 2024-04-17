@@ -92,7 +92,7 @@ R.zero<-rou.scale*diag(1,NZ)
 
 #Hyperparameters of Gamma distribution for the shrinkage parameter
 a_lambda<-1
-b_lambda<-0.01
+b_lambda<-0.0001
 
 #if (category)
 #{
