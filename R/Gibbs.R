@@ -93,7 +93,7 @@ R.zero<-rou.scale*diag(1,NZ)
 
 #Hyperparameters of Gamma distribution for the shrinkage parameter
 a_lambda<-1
-b_lambda<-100
+b_lambda<-0.00001
 
 NLY1<-sum(IDY==-1)				#number of lasso lambda.
 a_lamsq<-1
