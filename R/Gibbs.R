@@ -81,7 +81,7 @@ sigly<-0.25
 #Inverse prior variance of unknown parameters in intercept
 sigmu<-0.25
 
-rou.scale<-0.1
+rou.scale<-0.001
 
 #rho_0, hyperparameters of Wishart distribution			
 rou.zero<-rou.scale+NZ+1	
